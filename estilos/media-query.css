@@ -17,6 +17,12 @@
         float: right;
         width: 65%;
     }
+    body > main > section#login > div#form > h1 {
+        font-size: 35px;
+    }
+    body > main > section#login > div#form > p {
+        font-size: 1.1em;
+    }
 }
 
 @media screen and (min-width: 993px) {
@@ -28,14 +34,20 @@
         width: 990px;
     }
     section#login > div#img {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
         background-position: left bottom;
     }
     section#login > div#form {
-        float: right;
+        float: left;
         width: 50%;
 
+    }
+    body > main > section#login > div#form > h1 {
+        font-size: 45px;
+    }
+    body > main > section#login > div#form > p {
+        font-size: 1.2em;
     }
 }
